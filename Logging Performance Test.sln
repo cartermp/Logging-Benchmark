@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging Performance Test - Core", "Logging Performance Test - Core\Logging Performance Test - Core.csproj", "{409096B7-14EC-4DCE-9044-429E5F4CDB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging Performance Test - Core Library", "Logging Performance Test - Core Library\Logging Performance Test - Core Library.csproj", "{CD4B64F8-23DF-4C2B-877D-A08A4F347BB7}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Logging Performance Test - Core Library - FS", "Logging Performance Test - Core Library - FS\Logging Performance Test - Core Library - FS.fsproj", "{C2E0D99A-BE15-4844-8C0B-A37BD056CC8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{409096B7-14EC-4DCE-9044-429E5F4CDB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409096B7-14EC-4DCE-9044-429E5F4CDB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409096B7-14EC-4DCE-9044-429E5F4CDB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409096B7-14EC-4DCE-9044-429E5F4CDB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4B64F8-23DF-4C2B-877D-A08A4F347BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4B64F8-23DF-4C2B-877D-A08A4F347BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4B64F8-23DF-4C2B-877D-A08A4F347BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4B64F8-23DF-4C2B-877D-A08A4F347BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E0D99A-BE15-4844-8C0B-A37BD056CC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E0D99A-BE15-4844-8C0B-A37BD056CC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E0D99A-BE15-4844-8C0B-A37BD056CC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E0D99A-BE15-4844-8C0B-A37BD056CC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

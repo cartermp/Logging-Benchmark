@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <RootNamespace>Logging_Performance_Test___Core_Library</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release (BaseLogger)' ">
+      <Optimize Condition=" '$(Optimize)' == '' ">true</Optimize>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release (BigLogger)' ">
+      <DefineConstants>TRACE;RELEASE_(BIGLOGGER);NETCOREAPP;NETCOREAPP2_1;BIG_LOGGER</DefineConstants>
+    </PropertyGroup>
+
+</Project>
